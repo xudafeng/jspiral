@@ -1,14 +1,14 @@
 {
-  "name": "spiral.js",
+  "name": "jspiral",
   "version": "0.1.0",
   "description": "JavaScript Implementation of 2D spiral",
   "keywords": [
     "spiral"
   ],
-  "main": "./dist/spiral.js",
+  "main": "./dist/jspiral",
   "repository": {
     "type": "git",
-    "url": "git://github.com/xudafeng/spiral.js.git"
+    "url": "git://github.com/xudafeng/jspiral.git"
   },
   "dependencies": {},
   "devDependencies": {
