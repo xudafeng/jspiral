@@ -8,7 +8,7 @@
   "main": "./dist/jspiral",
   "repository": {
     "type": "git",
-    "url": "git://github.com/xudafeng/jspiral.git"
+    "url": "git@github.com:xudafeng/jspiral.git"
   },
   "dependencies": {},
   "devDependencies": {
@@ -36,7 +36,7 @@
     "dev:test": "cross-env NODE_ENV=test webpack-dev-server",
     "lint": "eslint --fix .",
     "serve": "npm run dev:test &",
-    "test": "macaca run -d ./test --reporter macaca-reporter",
+    "test": "macaca run -d ./test",
     "prepublish": "npm run build",
     "build": "cross-env NODE_ENV=production webpack -p",
     "ci": "npm run lint && npm run serve && npm run test"
